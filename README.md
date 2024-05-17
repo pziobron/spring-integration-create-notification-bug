@@ -1,5 +1,5 @@
 Steps to reproduce the issue:
-1. Install Temurin JDK, version 17.0.9+9 ( https://adoptium.net/temurin/archive/?version=17 )
+1. Install Temurin JDK, version 17.0.9+9 or the latest 17.0.11+9 ( https://adoptium.net/temurin/archive/?version=17 )
 2. Launch the Spring Boot Application using the Temurin JDK (version 17.0.9+9)
 3. Open the shell and go to the project's directory
 4. There should be test-dir folder created after application is started
