@@ -10,8 +10,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-cloud-gcp-integration-storage-sample</artifactId>
-    <name>Spring Framework on Google Cloud Code Sample - Spring Integration Storage</name>
+    <artifactId>spring-integration-create-notification-bug</artifactId>
+    <name>Spring Integration Create Notification Bug Example</name>
 
     <dependencies>
         <dependency>
@@ -60,6 +60,11 @@
                 <configuration>
                     <skip>true</skip>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>3.2.5</version>
             </plugin>
         </plugins>
     </build>
